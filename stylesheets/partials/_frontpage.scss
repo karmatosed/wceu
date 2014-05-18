@@ -1,9 +1,9 @@
 #actionbar{
-	background: $color-main;
+	background: $color-sub;
 	color: $color-white;
 	left: 0;
-	padding: $spacing;
+	padding: $spacing*2 $spacing $spacing $spacing;
 	position: absolute;
-	top: 45px;
+	top: 35px;
 	width: 100%;
 }
