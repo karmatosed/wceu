@@ -1,0 +1,15 @@
+.wcorg-speaker-description .avatar, .wcorg-organizer-description .avatar {
+	float: left;
+	margin: 0 $spacing $spacing/2 0;
+}
+
+.wcorg-speaker, .wcorg-organizer {
+	border-bottom: 1px solid #fff;
+	margin: 0;
+	padding: 0 0 $spacing;
+	overflow: hidden;
+}
+
+.wcorg-speaker p, .wcorg-organizer p {
+	margin: 0 0 0 $spacing*5;
+}

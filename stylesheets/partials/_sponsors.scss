@@ -1,0 +1,58 @@
+.wcpt-session-speakers {
+	display: block;
+}
+
+body.single-wcb_sponsor .entry-meta {
+	display: none;
+}
+
+body.single-wcb_sponsor .attachment-post-thumbnail {
+	display: none;
+}
+
+body.single-wcb_sponsor #secondary .attachment-post-thumbnail {
+	display: block;
+}
+
+body.single-wcb_sponsor {
+	background: $color-white;
+}
+
+body.single-wcb_sponsor #secondary {
+	background: $color-white;
+	border-top: none;
+	clear: both;
+	padding: $spacing 0;
+}
+
+.wcb_widget_sponsors .sponsor-logo img {
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	max-width: 100%;
+	height: auto;
+}
+.wcorg-sponsor {
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 $spacing;
+	padding: 0 0 $spacing;
+	overflow: hidden;
+}
+
+.wcorg-sponsor img {
+	float: left;
+}
+
+.wcorg-sponsor h3 {
+	margin: 0 0 0 $spacing*10;
+}
+
+.wcorg-sponsors h2 {
+	background: #333;
+	color: $color-white;
+	padding: $spacing/2 $spacing;
+	text-transform: uppercase;
+}
+.wcorg-sponsors p, .wcorg-sponsors ul {
+	margin: 0 0 0 $spacing*10;
+}

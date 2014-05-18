@@ -1,0 +1,42 @@
+ul#menu-menu.toggled-on li {
+	background: $color-white;
+	border-radius: 0;
+	@include font-size(1.8);
+	padding: $spacing/2 $spacing;
+	width: auto;
+}
+.menu-toggle{
+	background: $color-sub!important;
+	border-radius: 0px!important;
+	padding: 20px!important;
+	position: absolute;
+	top: 46px;
+	right: 0;
+	z-index: 999999;
+}
+ul#menu-menu.toggled-on li a {
+	text-decoration: none;
+}
+
+.main-navigation ul.nav-menu.toggled-on li {
+	@include font-size(1.6);
+	line-height: 1.42857143;
+	margin-top: $spacing;
+}
+.main-navigation a {
+	color: $color-white;
+}
+nav#site-navigation{
+	top: 12px;
+}
+a {
+	color: $color-main;
+}
+.main-navigation li a {
+	text-transform: none!important;
+}
+ul.toggled-on{
+	background: $color-main;
+	padding: $spacing;
+	width: 100%;
+}

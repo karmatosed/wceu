@@ -1,0 +1,24 @@
+html {
+	font-size: 62.5%;
+}
+
+img#wpstats {
+	display: none;
+}
+
+p {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+}
+
+body {
+	@include font-size(1.6);
+	line-height: 1.6;
+}

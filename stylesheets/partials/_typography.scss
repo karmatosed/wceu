@@ -1,0 +1,115 @@
+body.custom-font {
+	font-family: $font-content;
+}
+
+h1, h2, h3, h4 {
+	font-family: $font-heading;
+	font-weight: 700;
+}
+
+.site-header h1 {
+	display: block;
+	@include font-size(3.6);
+	line-height: 1;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.site-header h2 {
+	font-weight: 700;
+	@include font-size(2.4);
+	line-height: 1.2;
+	margin: $spacing 0 0;
+}
+
+.subheading {
+	background: $color-sub;
+	color: #fff;
+	padding: $spacing*5 0;
+	text-align: center;
+}
+
+.home #main h3 {
+	color: $color-white;
+	@include font-size(2.4);
+	font-weight: 200;
+	line-height: 1.2;
+	padding: 0 $spacing/2;
+}
+
+.home #main h4 {
+	color: $color-main;
+	font-weight: 200;
+	@include font-size(2.4);
+	font-style: italic;
+	opacity: .8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $color-heading;
+}
+
+.archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
+	@include font-size(2.4);
+	font-weight: 200;
+	font-style: italic;
+	line-height: 2.181818182;
+	text-transform: capitalize;
+}
+
+.home h3 {
+	margin: 0;
+}
+
+.home p {
+	@include font-size(1.8);
+}
+
+.entry-content h1,
+.comment-content h1 {
+	@include font-size(4.8);
+	line-height: 1.5;
+}
+
+.entry-content h2,
+.comment-content h2,
+.mu_register h2 {
+	@include font-size(3.2);
+	line-height: 1.6;
+}
+
+.entry-content h3,
+.comment-content h3 {
+	@include font-size(2.4);
+	line-height: 1.846153846;
+}
+
+.entry-content h4,
+.comment-content h4 {
+	@include font-size(2.1);
+	line-height: 1.846153846;
+}
+
+.entry-content h5,
+.comment-content h5 {
+	@include font-size(1.8);
+	line-height: 1.846153846;
+}
+
+.entry-content h6,
+.comment-content h6 {
+	@include font-size(1.6);
+	line-height: 1.846153846;
+}
+
+#respond h3#reply-title {
+	@include font-size(3.2);
+	font-style: italic;
+	line-height: 1.5;
+}
+
+article.format-quote footer.entry-meta, article.format-link footer.entry-meta, article.format-status footer.entry-meta {
+	@include font-size(1.4);
+	line-height: 2.181818182;
+}

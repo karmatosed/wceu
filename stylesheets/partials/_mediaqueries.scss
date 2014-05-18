@@ -1,0 +1,210 @@
+@media only screen and (min-width:480px) {
+	.site-header {
+		margin: 0 auto;
+		padding: $spacing*10 0 $spacing*5;
+	}
+
+	#tix-attendees li {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width:600px) {
+	#actionbar{
+		top: 80px;
+	}
+	nav#site-navigation {
+		background: $color-darkbackground;
+		left: 0;
+		position: fixed;
+		top: 12px;
+		width: 100%;
+		z-index: 99999;
+	}
+
+	.main-navigation a {
+		color: $color-white;
+	}
+
+	#tix-attendees .tix-columns-3 li {
+		width: 30%;
+	}
+
+	#tix-attendees li {
+		float: left;
+		width: 50%;
+		margin-bottom: $spacing;
+		height: $spacing*4;
+	}
+
+	.wcorg-sponsorsp {
+		margin: 0;
+	}
+
+	.main-navigation {
+		margin: 0;
+	}
+
+	#content {
+		padding: $spacing*2 0;
+	}
+
+	.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a {
+		background: $color-highlight;
+		color: $color-white;
+		@include font-size(1.6);
+		font-weight: 400;
+		padding: 0 $spacing;
+	}
+
+	.main-navigation li a:hover {
+		color: #ddd;
+	}
+
+	.main-navigation li:last-child {
+		background: $color-highlight;
+		float: right;
+	}
+
+	.main-navigation li:last-child a {
+		color: $color-white;
+	}
+
+	.main-navigation a {
+		color: $color-white;
+		@include font-size(1.6);
+		font-weight: 400;
+		padding: 0 $spacing;
+	}
+
+	.main-navigation li {
+		margin: 0;
+	}
+
+	.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+		border-top: none;
+		border-bottom: 0 solid $color-darkbackground;
+		display: inline-block !important;
+		text-align: left;
+		width: 100%;
+	}
+
+	.feature-image {
+		float: left;
+		display: block;
+		width: 40%;
+	}
+
+	.feature-content {
+		float: right;
+		padding: 3% 0;
+		width: 55%;
+	}
+
+	.section-wrapper {
+		border-top: 1px solid $color-darkbackground;
+		clear: both;
+		padding: $spacing*3 0;
+		overflow: hidden;
+	}
+
+	.home #main h3 {
+		@include font-size(2.4);
+		font-weight: 200;
+		line-height: 1;
+		color: #fff;
+		padding: 0;
+	}
+
+	.home #main h4 {
+		@include font-size(4.8);
+		color: $color-main;
+		font-weight: 200;
+		font-style: italic;
+		opacity: .8;
+	}
+
+	.home .site-header {
+		margin: 0 auto;
+		padding: $spacing*10 0 $spacing*5;
+	}
+
+	.site-header h1 {
+		display: block;
+		@include font-size(8.6);
+		line-height: 1;
+		margin-bottom: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.site-header h2 {
+		font-weight: 700;
+		@include font-size(3.6);
+		line-height: .8;
+		margin: $spacing 0 0;
+	}
+
+	.home #main {
+		background: $color-background;
+		border-top: none;
+		color: $color-lighterbackground;
+		width: 100%;
+		padding: 0;
+	}
+
+	body {
+		background-color: #f3f3f3 !important;
+		/*background-image: url('http://2013.europe.wordcamp.org/files/2013/09/wceubackground-two.png') !important;
+		*/background-repeat: no-repeat !important;
+		background-position: center 250px !important;
+		background-attachment: fixed;
+	}
+
+	.home body {
+		background-color: #f3f3f3 !important;
+		/*background-image: url('http://2013.europe.wordcamp.org/files/2013/09/wceubackground.png') !important;
+		*/background-repeat: no-repeat !important;
+		background-position: center 250px !important;
+		background-attachment: fixed;
+	}
+
+	.home .site-header h1 a, .home .site-header h2 a,																																																																																																																																											.home .site-header h1 a:hover, .home .site-header h2 a:hover, .home .site-header h2 {
+		color: $color-main;
+	}
+
+	.wcorg-sponsor img {
+		float: none;
+	}
+
+	.wcorg-sponsor h3 {
+		margin: 0;
+	}
+}
+
+@media only screen and (min-width:768px) {
+
+}
+
+@media only screen and (min-width:992px) {
+	.wcorg-sponsors p, .wcorg-sponsors ul {
+		margin: 0 0 0 $spacing*10;
+	}
+
+	.wcorg-sponsor img {
+		float: left;
+	}
+
+	.wcorg-sponsor h3 {
+		margin: 0 0 0 $spacing*10;
+	}
+}
+
+@media only screen and (min-width:1140px) {
+
+}
+
+@media only screen and (min-width:1382px) {
+
+}

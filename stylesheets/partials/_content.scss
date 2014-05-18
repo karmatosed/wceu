@@ -1,0 +1,143 @@
+.widget-area .widget p, .widget-area .widget li, .widget-area .widget .textwidget {
+	@include font-size(1.4);
+	line-height: 1.846153846;
+}
+
+#primary, .inner-wrapper, .site {
+	margin: 0 auto;
+	max-width: 1040px;
+}
+
+#main {
+	padding: 0 10px;
+}
+
+.home #main {
+	padding: 0;
+}
+
+aside.widget {
+	margin: 0 auto;
+	max-width: 1040px;
+}
+
+body.full-width #primary, body.blog #primary {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.home #content {
+	padding: 0;
+}
+
+#content {
+	padding: $spacing*2 0;
+}
+
+.site-content {
+	margin: 0;
+}
+
+.feature-content {
+	float: none;
+	padding: $spacing/2;
+	width: auto;
+}
+
+.home .site-content,
+body.template-front-page .site-content, body.single-attachment .site-content, body.full-width .site-content {
+	float: none;
+	width: 100%;
+}
+
+.highlight {
+	background: $color-highlight;
+	border-bottom: 2px solid $color-border;
+	color: $color-white;
+	display: inline-block;
+	@include font-size(4.0);
+	line-height: 1.4;
+	padding: 0 10px;
+	text-align: center;
+	text-shadow: -1px -1px 0 $color-border;
+}
+
+.feature-image {
+	display: none;
+	float: left;
+	width: 40%;
+}
+
+.feature-image img {
+	border: none;
+	box-shadow: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content img {
+	border: none;
+	box-shadow: none;
+}
+
+.entry-header .entry-title {
+	@include font-size(5.2);
+	font-weight: 700;
+	line-height: 1.1;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+body.home .entry-header {
+	display: none;
+	margin: 0;
+}
+
+.site-content article {
+	border-bottom: 1px solid #bcbcbc;
+	padding-bottom: $spacing*2;
+}
+
+.home .site-content article {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.nav-single {
+	overflow: hidden;
+	padding: $spacing 0;
+}
+
+::-moz-selection {
+	background: $color-selection;
+	text-shadow: none;
+}
+
+::selection {
+	background: $color-selection;
+	text-shadow: none;
+}
+
+a.sponsor-logo {
+	float: left;
+	height: 150px;
+	margin: 0 $spacing/2 $spacing/2 0;
+}
+
+.sponsor-level {
+	clear: both;
+	overflow: hidden;
+	padding: $spacing 0;
+}
+
+.home #main .sponsor-level h4 {
+	@include font-size(1.8);
+}
+
+#tix-attendees .tix-columns-3 li {
+	width: 30%;
+}
+
+.page-id-339347 #secondary {
+	display: none;
+}

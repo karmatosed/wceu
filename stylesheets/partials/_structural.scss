@@ -1,0 +1,66 @@
+.site-content {
+	float: none;
+	width: auto;
+}
+
+.error404 .content {
+	padding: $spacing*2;
+}
+
+.section-wrapper {
+	border-top: 1px solid #dfdfb4;
+	clear: both;
+	overflow: hidden;
+	padding: $spacing/2 0;
+}
+
+body.logged-in .main-navigation {
+	margin: $spacing 0 0;
+}
+
+body.home .site {
+	margin: 0 auto;
+	max-width: 100%;
+	overflow: hidden;
+	padding: 0;
+}
+
+body .site {
+	box-shadow: none;
+	background: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+#main {
+	background: $color-background;
+}
+
+body {
+	background-image: none !important;
+	background-color: $color-background;
+}
+
+#secondary {
+	background: $color-white;
+	border-top: 1px solid #eee;
+	clear: both;
+	padding: $spacing;
+}
+
+body.home #secondary {
+	background: $color-white;
+}
+
+body.single #primary, body.page #primary {
+	float: none;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.widget-area {
+	float: none;
+	margin: 0;
+	width: auto;
+}

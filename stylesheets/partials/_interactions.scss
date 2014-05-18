@@ -1,0 +1,89 @@
+a.comment-reply-link, a.comment-edit-link {
+	@include font-size(1.4);
+	line-height: 1.846153846;
+}
+
+.comments-area article header cite, .comments-area article header time {
+	@include font-size(1.8);
+	font-style: italic;
+	line-height: 1.4;
+	text-decoration: none;
+	opacity: .6;
+}
+
+.comments-title {
+	@include font-size(3.2);
+	font-style: italic;
+	font-weight: normal;
+	line-height: 1.5;
+	margin-bottom: $spacing*2;
+}
+
+li.comment {
+	margin-bottom: $spacing;
+}
+
+.menu-toggle, input[type="submit"], input[type="button"], input[type="reset"], article.post-password-required input[type="submit"], li.bypostauthor cite span {
+	background-color: $color-main;
+	background-repeat: repeat-x;
+	background-image: none;
+	border: none;
+	border-radius: 3px;
+	box-shadow: none;
+	color: $color-white;
+	@include font-size(1.8);
+	font-weight: normal;
+	line-height: 1.428571429;
+	padding: $spacing/2 $spacing;
+}
+
+.menu-toggle:active, .menu-toggle:hover, .menu-toggle.toggled-on, button:active, input[type="submit"]:active, input[type="button"]:active, input[type="reset"]:active {
+	background-color: $color-sub;
+	background-repeat: repeat-x;
+	background-image: none;
+	box-shadow: none;
+	border: none;
+	color: $color-white;
+}
+
+input[type="submit"]:hover {
+	background: $color-sub;
+	color: $color-white;
+	opacity: .7;
+}
+
+#respond form input[type="text"], #respond form textarea {
+	background: #eee;
+	border: 1px solid #ddd;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	@include font-size(1.4);
+	line-height: 1.714285714;
+	padding: $spacing/2;
+	padding: .714285714rem;
+	width: 100%;
+}
+
+.comments-area li.bypostauthor cite span {
+	@include font-size(1.4);
+	margin-left: $spacing/4;
+	padding: $spacing/4;
+	position: absolute;
+}
+
+.entry-header .comments-link {
+	color: #757575;
+	font-style: italic;
+	@include font-size(1.6);
+	line-height: 1.846153846;
+	margin-top: $spacing;
+}
+
+.entry-content table, .comment-content table {
+	border-bottom: 1px solid #ededed;
+	color: #757575;
+	@include font-size(1.6);
+	line-height: 2;
+	margin: 0 0 $spacing;
+	width: 100%;
+}

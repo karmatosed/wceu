@@ -1,0 +1,17 @@
+a.wcpt-session-title {
+	@include font-size(1.8);
+	font-weight: 700;
+}
+
+a.wcpt-session-title, a:visited.wcpt-session-title {
+	color: #333 !important;
+}
+
+.wcpt-col-time {
+	padding: 0 $spacing*2 0 0;
+}
+
+.wcpt-schedule th {
+	background: $color-whiteoff;
+	padding: $spacing/2;
+}

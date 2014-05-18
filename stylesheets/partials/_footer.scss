@@ -1,0 +1,31 @@
+.home footer[role="contentinfo"] {
+	background: $color-darkbackground;
+	border-top: none;
+	@include font-size(1.4);
+	line-height: 2;
+	margin: 0;
+	max-width: 100%;
+	padding: $spacing;
+}
+
+footer[role="contentinfo"] {
+	border-top: none;
+	@include font-size(1.4);
+	line-height: 2;
+	margin: 0;
+	padding: $spacing 0;
+}
+
+.home footer.entry-meta {
+	display: none;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer.entry-meta {
+	@include font-size(1.4);
+	line-height: 1.846153846;
+	margin-top: $spacing;
+}
